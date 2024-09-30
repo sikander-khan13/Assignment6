@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #FAFAFA;
+}
+
+.large-text{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 78px;
+}
+
+.btn:hover{
+    background-color: darkgreen;
+}
+
+.p1{
+    padding-top: 40px;
+}
+
+.card-body{
+    background-color: #2D3142;
+    color: white;
+    transition: all;
+}
+
+.card-body:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.btn1{
+    background-color: white;
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    background-color: white;
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: orangered;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+    transition: all;
+}
+
+.d1{
+    background-image: url(images/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 15%;
+    object-fit: cover;
+}
+
+.d2{
+    position: relative;
+}
+.p{
+    padding-top: 30px;
+}
